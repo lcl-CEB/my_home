@@ -1,0 +1,3 @@
+Pillow
+streamlit_drawable_canvas
+time
