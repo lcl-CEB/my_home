@@ -145,7 +145,6 @@ def page_6():
         question(2, '我的作品你打几分？', '114514分', '1分', '100分', '1分', '真聪明（还是说你就是这么想的 🤡🤡🤡🤡🤡🤡🤡）！', '有没有一种可能，满分是1分（你这是什么离谱分数！）')
 
 def page_7():
-
     st.title('先赞后看，是好习惯！！！！！！！')
     for i in range(5):
         a, b, c = st.columns([1, 1, 0.1])
@@ -158,9 +157,7 @@ def page_7():
     three_push = st.button('一键三连')
     if three_push:
         st.success('205 Reset Content')
-    while True:
         st.balloons()
-        time.sleep(1)
 
 def question(num, Q, A1, A2, A3, T, T_R, F_R):
     st.subheader('第'+ str(num) + '题:')
